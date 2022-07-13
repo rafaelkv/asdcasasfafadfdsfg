@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingenium</title>
+    <link rel="icon" type="image/png" href= "imagens/logofavicon.png" width="30" height="50" > 
+    <link href="css/diario.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="css/ainda n sei.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+		html{
+  scroll-behavior: smooth;
+}
+ #redesociais{
+	margin-bottom: 1px;
+ } 
+  #post1 {
+	margin-left: 400px;
+	margin-right: 350px;
+	text-align: center;
+  background-color:white;
+  border: 1px solid;
+  padding: 200px;
+  box-shadow: 6px 10px #888888;
+}
+
+   body{
+	background-color: #ffc629;
+}   
+ * {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+nav {
+    position: fixed;
+	background: #FFf;
+	height: 90px;
+	width: 100%;
+	box-shadow: 0px 0.5px #888888;
+}
+label.logo{
+	text-transform: uppercase;
+}
+
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a {
+	color: #FFC629;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	background: #eeff00;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+@media (max-width: 952px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #FFF;
+		top: 80px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #ffce49;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+}
+      .botaotop{
+          color: rgb(0, 0, 0);
+      }
+      #redesociais{
+    display:flex;
+    flex-direction: row;
+}
+.fa-facebook {
+    padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  background: #3B5998;
+  color: white;  
+  border-radius: 50%;
+  margin-left:20px;
+}
+.fa-instagram {
+    margin-left:20px;
+    padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  background: #E1306C;
+  color: white;
+  border-radius: 50%;
+}
+      </style>
+    <style>
+    .whatsapp-link {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+    }
+    .fa-whatsapp{
+        margin-top: 16px;
+    }
+    </style>    
+    
+    
+
+    <link rel="icon" type="image/x-icon" href="">
+    
+<body>
+    <nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i class="fas fa-bars"></i>
+		</label>
+		<label class="logo">
+            <img src="imagens/LOGOTIPO.png" href="imagens/LOGOTIPO.png" width="350" height="100">
+        </label>
+		<ul>
+			<li><a class="active" href="#topo">Início</a></li>
+			<li><a href="index.php">home</a></li>
+		</ul>
+	</nav>
+	<section>
+
+</section>
+<br id="topo"><br><br><br><br><br>
+<div id="post1">
+	<p> ideia de postagem com os conteudos, relatorios e etc</p>
+</div>    <br><br><br><br><br><br>
+<div>
+   <a class="whatsapp-link"href="https://web.whatsapp.com/send?phone=5519997463745" target="_blank">
+       <i class="fa fa-whatsapp"></i>
+       
+   </a> 
+    </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <div id="redesociais">
+        <a href="https://www.facebook.com/ingeniumproj" class="fa fa-facebook" target="_blank"></a>
+        <a class="fa fa-instagram" href="https://www.instagram.com/ingenium_projetos/" target="_blank"></a>
+       </div>
+</body>
+</html>
